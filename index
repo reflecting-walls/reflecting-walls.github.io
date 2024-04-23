@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busy Bee Recipes</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #f8d49d;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .navbar img {
+            height: 50px;
+            width: auto;
+        }
+        .navbar a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .row {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 1;
+            padding: 0 10px;
+        }
+        @media screen and (max-width: 600px) {
+            .column {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="busybee-logo.png" alt="Busy Bee Logo">
+        <a href="#">About</a>
+        <a href="#">Recipes</a>
+        <a href="#">Tips</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="main-content">
+        <div class="row">
+            <div class="column">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>Ingredient 1</li>
+                    <li>Ingredient 2</li>
+                    <li>Ingredient 3</li>
+                    <!-- Add more ingredients as needed -->
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Add to Instacart</h2>
+                <!-- Add your Instacart affiliate section here -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>Condensed Recipe Instructions</h2>
+                <p>This is a condensed version of the recipe instructions.</p>
+                <p>Step 1: Do something...</p>
+                <p>Step 2: Do something else...</p>
+                <!-- Add more instructions as needed -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <!-- Google ad code goes here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
