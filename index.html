@@ -21,7 +21,6 @@
         .row {
             margin-bottom: 20px;
             display: flex;
-            flex-direction: column;
             text-align: center;
         }
         .column {
@@ -43,9 +42,10 @@
     height: 100%;
 }
         @media screen and (max-width: 600px) {
-            .column {
-                flex-direction: column;
-            }
+    .column {
+        flex-direction: column;
+        flex-basis: 100%; /* Each column takes up 100% of the available space */
+    }
         }
     </style>
 </head>
