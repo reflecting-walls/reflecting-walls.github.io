@@ -50,19 +50,16 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <img src="busybeerecipe-logo.png" alt="Busy Bee Logo" class="logo">
-        <div class="navbar-toggle" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <div class="nav-links">
-            <a href="#">About</a>
-            <a href="#">Recipes</a>
-            <a href="#">Tips</a>
-            <a href="#">Contact</a>
-        </div>
+    <div class="topnav">
+        <a href="#home" class="active"><img src="busybeerecipe-logo.png" alt="Busy Bee Logo" class="logo"></a>
+          <div id="myLinks">
+            <a href="#news">Tools</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div>
     <div class="main-content">
         <div class="row">
