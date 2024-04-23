@@ -1,9 +1,6 @@
 .navbar {
-    background-color: #f8d49d;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 15px 0;
+    text-align: center;
 }
 
 .logo {
