@@ -39,6 +39,19 @@
             padding: 0 10px;
             text-align: center;
         }
+        .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
         @media screen and (max-width: 600px) {
             .column {
                 flex-direction: column;
@@ -56,7 +69,7 @@
     </div>
     <div class="main-content">
         <div class="row">
-            <div class="column">
+            <div class="column video-container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
