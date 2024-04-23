@@ -1,21 +1,19 @@
-/* Styles for navbar */
         .navbar {
             background-color: #333;
             color: white;
             display: flex;
-            justify-content: space-between;
+            justify-content: center; /* Center content horizontally */
             align-items: center;
             padding: 10px 20px;
         }
         .logo {
-            margin-right: auto;
             font-size: 24px;
             text-decoration: none;
             color: white;
         }
         .links {
             display: flex;
-            justify-content: flex-end;
+            justify-content: flex-end; /* Push links to the right */
         }
         .links a {
             text-decoration: none;
@@ -27,6 +25,7 @@
             display: none;
             flex-direction: column;
             cursor: pointer;
+            margin-left: auto; /* Push hamburger menu to the right */
         }
         .bar {
             width: 25px;
@@ -35,14 +34,14 @@
             margin: 3px 0;
         }
         /* Media query for small screens */
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 700px) {
             .logo {
-                margin-right: 0;
+                margin-right: auto; /* Push logo to the left */
             }
             .links {
-                display: none;
+                display: none; /* Hide links on small screens */
             }
             .hamburger {
-                display: flex;
+                display: flex; /* Show hamburger menu */
             }
         }
