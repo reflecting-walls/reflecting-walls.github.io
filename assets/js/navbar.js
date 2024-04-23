@@ -1,7 +1,8 @@
-function toggleMenu() {
-    var navbarToggle = document.querySelector('.navbar-toggle');
-    var navLinks = document.querySelector('.nav-links');
-
-    navbarToggle.classList.toggle('change');
-    navLinks.classList.toggle('show');
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
