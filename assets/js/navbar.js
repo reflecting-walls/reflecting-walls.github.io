@@ -1,8 +1,5 @@
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+// Function to toggle visibility of links for hamburger menu
+function toggleMenu() {
+    var links = document.querySelector('.links');
+    links.style.display = links.style.display === 'none' ? 'flex' : 'none';
 }
